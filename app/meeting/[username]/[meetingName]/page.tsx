@@ -1,5 +1,4 @@
 import prisma from "@/app/lib/db";
-import { nylas } from "@/app/lib/nylas";
 import { notFound } from "next/navigation";
 import React from "react";
 import { addDays } from "date-fns";

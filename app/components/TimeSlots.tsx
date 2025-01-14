@@ -8,10 +8,8 @@ import {
 } from 'date-fns'
 import prisma from '../lib/db'
 import { Prisma } from '@prisma/client'
-import { nylas } from '../lib/nylas'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { NylasResponse, GetFreeBusyResponse } from 'nylas'
 
 interface iappProps {
   selectedDate: Date
